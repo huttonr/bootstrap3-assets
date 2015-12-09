@@ -2,7 +2,7 @@
 Package.describe({
   name: 'huttonr:bootstrap3-assets',
   summary: 'By itself this package does nothing.  It contains assets for use by huttonr:bootstrap3.',
-  version: '3.3.5_5',
+  version: '3.3.5_6',
   git: 'https://github.com/huttonr/bootstrap3-assets',
   documentation: 'README.md'
 });
