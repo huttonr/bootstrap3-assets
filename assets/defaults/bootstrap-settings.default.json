@@ -12,6 +12,8 @@
   },
 
   "javascript": {
+    "expose": false,
+
     "modules": {
       /*JS_MODULES*/
     }
