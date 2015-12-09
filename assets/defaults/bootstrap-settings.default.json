@@ -4,6 +4,8 @@
 
     "exposeMixins": false,
 
+    "compileLess": true,
+
     "modules": {
       /*LESS_MODULES*/
     }
