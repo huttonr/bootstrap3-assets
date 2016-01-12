@@ -1,4 +1,4 @@
-bootstrapVersion="v3.3.5"
+bootstrapVersion="v3.3.6"
 
 echo "Initializing bootstrap submodule... ($bootstrapVersion)"
 git submodule update --init
@@ -13,7 +13,7 @@ echo 'less/*.less' >> $submodulepath/info/sparse-checkout
 echo 'less/mixins/*.less' >> $submodulepath/info/sparse-checkout
 echo 'fonts/*' >> $submodulepath/info/sparse-checkout
 
-$(cd $submodulepath; git checkout $bootstrapVersion)
+$(cd $submodulepath; git pull; git checkout $bootstrapVersion)
 
 echo "Generating asset list for package.js..."
 
