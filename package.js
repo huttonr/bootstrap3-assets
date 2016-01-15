@@ -2,13 +2,13 @@
 Package.describe({
   name: 'huttonr:bootstrap3-assets',
   summary: 'By itself this package does nothing.  It contains assets for use by huttonr:bootstrap3.',
-  version: '3.3.6',
+  version: '3.3.6_2',
   git: 'https://github.com/huttonr/bootstrap3-assets',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2.0.2');
+  api.versionsFrom('1.2.1');
   api.use('isobuild:compiler-plugin@1.0.0');
 
   api.addFiles('serve.js', 'server');
