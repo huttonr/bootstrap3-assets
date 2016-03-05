@@ -17,5 +17,7 @@
     "modules": {
       /*JS_MODULES*/
     }
-  }
+  },
+
+  "version": 2
 }
